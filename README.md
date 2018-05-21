@@ -1,7 +1,7 @@
 This is a variation of [OpenNMT](https://github.com/OpenNMT/OpenNMT),
-an open-source (MIT) neural machine translation system, that implements the paper ''A Shared Attention Mechanism for Better Interpretability of Neural Automatic Post-Editing Systems" have a multi-source neural system for the Automatic Post Editing task. The code is in [Pytorch](https://github.com/pytorch/pytorch).
+an open-source (MIT) neural machine translation system, that implements the paper ''A Shared Attention Mechanism for Better Interpretability of Neural Automatic Post-Editing Systems" (link). The code is in [Pytorch](https://github.com/pytorch/pytorch).
 
-#Quick-start
+# Quick-start
 The following file describe how to run a basic model. Other hyper-parameters are available. Look at the _opt.py_ file.
 
 1. Preprocess the data:
@@ -17,7 +17,7 @@ python train.py -encoder_type double_encoder -data <preprocesed_file> -save_mode
 python translate.py -model <path_to_trained_model> -src <test_src> -inter <test_mt> -output <prediction_file> -replace_unk
 
 
-#EXTRA TOOLS
+# EXTRA TOOLS
 
 Compute BLEU score:
 
