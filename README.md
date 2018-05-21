@@ -1,5 +1,5 @@
 This is a variation of [OpenNMT](https://github.com/OpenNMT/OpenNMT),
-an open-source (MIT) neural machine translation system, in order to have a multi-source neural system for the Automatic Post Editing task. The code is in [Pytorch](https://github.com/pytorch/pytorch).
+an open-source (MIT) neural machine translation system, that implements the paper ''A Shared Attention Mechanism for Better Interpretability of Neural Automatic Post-Editing Systems" have a multi-source neural system for the Automatic Post Editing task. The code is in [Pytorch](https://github.com/pytorch/pytorch).
 
 #Quick-start
 The following file describe how to run a basic model. Other hyper-parameters are available. Look at the _opt.py_ file.
