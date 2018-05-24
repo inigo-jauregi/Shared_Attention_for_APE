@@ -21,7 +21,7 @@ python  train.py  -encoder_type  double_encoder  -data  <preprocesed_file>  -sav
 3. Translate sentences:
 
 ```
-python  translate.py  -model  <path_to_trained_model>  -src  <test_src>  -inter  <test_mt>  -output  <prediction_file>  -replace_unk
+python  translate.py  -model  <path_to_trained_model>  -src  <test_src>  -inter  <test_mt> -tgt <test_pe>  -output  <prediction_file>  -replace_unk
 ```
 
 ## EXTRA TOOLS
